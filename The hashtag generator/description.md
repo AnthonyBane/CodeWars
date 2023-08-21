@@ -5,7 +5,7 @@
 ## The Hashtag Generator
 
 
-[Link to CodeWars](TODO add link here) 
+[Link to CodeWars](https://www.codewars.com/kata/52449b062fb80683ec000024) 
 
 ### Description
 
