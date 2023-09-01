@@ -26,3 +26,14 @@ def count(s):
 
     return character_count_dict
 ```
+
+Just read a nice way to simplify this if statement [here](https://levelup.gitconnected.com/stop-using-dict-key-to-access-values-in-python-dictionaries-7ab45bb7946c). Rewritten to account for it:
+
+``` python
+def count_v2(s):
+    character_count_dict = {}
+    for char in s:
+        character_count_dict[char] = character_count_dict.get(char, 0) + 1
+
+    return character_count_dict
+```
